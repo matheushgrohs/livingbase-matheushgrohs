@@ -1,1 +1,113 @@
 /* Desenvolva seu estilo aqui */
+.header {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+}
+
+.left_side {
+    padding-top: 129px;
+}
+
+.logo_title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo_title > img{
+    height: 22px;
+    width: 29px;
+}
+
+.logo_title > h2{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.main_title {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 69px;
+    gap: 24px;
+    padding-right: 140px;
+}
+
+.main_title > h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main_title > button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right_side {
+    padding-top: 75px; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 102px;
+}
+
+.btn1 {
+    cursor: pointer;
+    height: 38px;
+    padding: 0px 22px 0px 22px;
+    border-radius: 32px;
+    border: 1px solid #F1F3F5;
+    color: #495057;;
+    font-weight: 600;
+    background-color: #F1F3F5;
+}
+
+.active{
+    background-color: #087F5B;
+    color: #F8F9FA;
+    font-weight: 600;
+}
+
+.posts_ul {
+    list-style: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.li_post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 548px;
+    height: 380px;
+
+}
+
+.img_post {
+    width: 548px ;
+    height: 172px;
+}
+
+.acess_post {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #087F5B;
+    font-weight: 600;
+    cursor: pointer;
+}
+
